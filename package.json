@@ -2,14 +2,12 @@
   "name": "marwell",
   "version": "1.0.0",
   "description": "creating a streaming website",
+  "main": "App.js",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html",
-    "test": "jest"
+    "build": "parcel build index.html"
   },
-  "keywords": [
-    "react"
-  ],
+  
   "author": "Minhaj",
   "license": "ISC",
   "devDependencies": {

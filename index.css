@@ -1,0 +1,78 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 25px;
+    border: solid black 1px;
+}
+
+.app-name {
+    padding: 20px;
+    margin: 5px;
+    font-size: 50px;
+    color: hsl(0, 84%, 44%);
+}
+
+.nav-items {
+    margin: 10px;
+}
+
+.nav-items > ul {
+display: flex;
+list-style-type: none;
+font-size: 25px;
+
+justify-content: space-between;
+
+
+}
+
+.nav-items > ul > li {
+    padding: 5px 10px;
+    margin: 0px 20px;
+
+}
+
+.search-section {
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.search {
+    padding: 5px;
+    margin: 5px;
+}
+.years{
+    padding: 5px;
+    margin: 5px;
+}
+.jonars{
+    padding: 5px;
+    margin: 5px;
+}
+.language{
+    padding: 5px;
+    margin: 5px;
+}
+
+.card {
+    background-color: hwb(0 82% 13% / 0.62);
+    width: 250px;
+    height: 350px;
+    margin: 10px;
+    padding: 10px;
+
+}
+.card:hover {
+    border: solid black 1px;
+    cursor: pointer;
+}
+.poster {
+    width: 100%;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
