@@ -1,38 +1,3 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import img from "./pushpa2.jpg"
-
-const Header = () => {
-    return (
-        <div className="header">
-            <div className="app-name" >MarWell</div>
-            <div className="nav-items">
-                <ul>
-                <li>Home</li>
-                <li>Movies</li>
-                <li>TV</li>
-                <li>Sports</li>
-                <li>Login</li>
-                <li>Sighin</li>
-                </ul>
-                
-            </div>
-        </div>
-    );
-};
-
-const MovieCard = (props) => {
-    const {movieData} = props;
-    const {image,title, sub_title} = movieData?.search_horizontal_content_card?.data;
-    return (
-        <div className="card">
-            <img className="poster" src={" https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/" + image.src} alt="movie poster"/>
-            <h3>{title}</h3>
-            <h5>{sub_title}</h5>
-        </div>
-    );
-};
-
 const moviesList = [
     {
         "search_horizontal_content_card": {
@@ -1299,42 +1264,4 @@ const moviesList = [
     }
 ]
 
-
-const Body = () => {
-    return (
-        <div className="body">
-            <div className="search-section">
-                <div className="search">search and button</div>
-                <div className="years">Year Filter</div>
-                <div className="jonars">Jonars list</div>
-                <div className="language">Language</div>
-
-            </div>
-            <div className="card-container">
-                 {moviesList.map((movies,index) => (<MovieCard key={index} movieData = {movies}/> )) }
-
-            </div>
-        </div>
-    );
-};
-
-const Footer = () => {
-    return (
-        <div></div>
-    );
-};
-
-const AppLayout = () => {
-    return (
-        <div className="app">
-            <Header/>
-            <Body/>
-            <Footer/>
-        </div>
-    );
-};
-
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
-
-root.render(<AppLayout/>);
+export default moviesList;
