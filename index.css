@@ -63,11 +63,13 @@ justify-content: space-between;
     height: 350px;
     margin: 10px;
     padding: 10px;
+    
 
 }
 .card:hover {
     border: solid black 1px;
     cursor: pointer;
+    
 }
 .poster {
     width: 100%;
