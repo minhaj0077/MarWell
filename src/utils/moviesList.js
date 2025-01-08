@@ -12,6 +12,119 @@ const moviesList = [
                     ],
                     "instrumentation_context_v2": {
                         "url": "type.googleapis.com/server.context.widget.SearchContentItemContext",
+                        "value": "CkcSIVNlYXJjaEhvcml6b250YWxDb250ZW50Q2FyZFdpZGdldBofU2VhcmNoR3JpZEhvcml6b250YWwvR3JpZFdpZGdldCIBMRJrYlwKCjEyNjAxNjc4NjASC1RoZSBNYXJ2ZWxzGgtUaGUgTWFydmVscyIFTU9WSUUqDFN1cGVyIEhlcm9lczC0xfLYBEgBagN0ZWxqA2VuZ2oDaGluagN0YW1yA2VuZ2oJCAUSBW1hcnZlcFMaZAohU2VhcmNoSG9yaXpvbnRhbENvbnRlbnRDYXJkV2lkZ2V0Egttb3JlX3Jlc3VsdBohU2VhcmNoSG9yaXpvbnRhbENvbnRlbnRDYXJkV2lkZ2V0IAMqBnNlYXJjaDIDZW5nOAI="
+                    }
+                },
+                "name": "SearchHorizontalContentCardWidget"
+            },
+            "data": {
+                "image": {
+                    "src": "sources/r1/cms/prod/7002/1657002-h-c91c8c15ff6d",
+                    "alt": "The Marvels",
+                    "dimension": {}
+                },
+                "title": "The Marvels",
+                "sub_title": "2023  •  1h 44m  •  Marvel",
+                "actions": {
+                    "on_click": [
+                        {
+                            "hs_track": {
+                                "name": "Content Clicked"
+                            }
+                        },
+                        {
+                            "page_navigation": {
+                                "page_type": "DesktopDetailsPage",
+                                "page_url": "/v2/pages/detail?content_id=1260167860",
+                                "page_slug": "/in/movies/the-marvels/1260167860"
+                            }
+                        },
+                        {
+                            "add_to_search_history": {
+                                "history_record_name": "The Marvels",
+                                "page_url": "/in/movies/the-marvels/1260167860",
+                                "is_content": true,
+                                "image": {
+                                    "src": "sources/r1/cms/prod/7002/1657002-h-c91c8c15ff6d",
+                                    "alt": "The Marvels"
+                                },
+                                "page_type": "DesktopDetailsPage",
+                                "instrumentation_url": "type.googleapis.com/server.context.widget.SearchContentItemContext",
+                                "instrumentation_value": "Ci0SE1NlYXJjaEhpc3RvcnlXaWRnZXQaE1NlYXJjaEhpc3RvcnlXaWRnZXQiATESaWJcCgoxMjYwMTY3ODYwEgtUaGUgTWFydmVscxoLVGhlIE1hcnZlbHMiBU1PVklFKgxTdXBlciBIZXJvZXMwtMXy2ARIAWoDdGVsagNlbmdqA2hpbmoDdGFtcgNlbmdqCQgBEgVtYXJ2ZRpEChNTZWFyY2hIaXN0b3J5V2lkZ2V0EgdoaXN0b3J5GhNTZWFyY2hIaXN0b3J5V2lkZ2V0IAMqBnNlYXJjaDIDZW5nOAE="
+                            }
+                        }
+                    ]
+                },
+                "expanded_content_poster": {
+                    "image": {
+                        "src": "sources/r1/cms/prod/7013/1657013-i-0433f19bb907",
+                        "alt": "The Marvels"
+                    },
+                    "content_info": {
+                        "title": "The Marvels",
+                        "title_cutout": {
+                            "src": "sources/r1/cms/prod/7012/1657012-t-5c27a14dc743",
+                            "alt": "The Marvels",
+                            "dimension": {
+                                "width": 843,
+                                "height": 285
+                            }
+                        },
+                        "description": "Captain Marvel joins forces with her estranged niece, astronaut Captain Monica Rambeau and super-fan Kamala Khan, aka Ms. Marvel to save the universe.",
+                        "tags": [
+                            {
+                                "value": "2023"
+                            },
+                            {
+                                "value": "1h 44m"
+                            },
+                            {
+                                "value": "Marvel"
+                            },
+                            {
+                                "value": "4 Languages"
+                            },
+                            {
+                                "value": "U/A 13+"
+                            },
+                            {
+                                "value": "Super Heroes"
+                            },
+                            {
+                                "value": "Action"
+                            },
+                            {
+                                "value": "Adventure"
+                            },
+                            {
+                                "value": "Science Fiction"
+                            },
+                            {
+                                "value": "Fantasy"
+                            }
+                        ]
+                    }
+                },
+                "badge": {},
+                "play": {
+                    "icon": "icon-play-fill"
+                }
+            }
+        }
+    },
+    {
+        "search_horizontal_content_card": {
+            "widget_commons": {
+                "version": "1",
+                "instrumentation": {
+                    "override_referrer": true,
+                    "impression_events": [
+                        {
+                            "event_name": "Content Viewed"
+                        }
+                    ],
+                    "instrumentation_context_v2": {
+                        "url": "type.googleapis.com/server.context.widget.SearchContentItemContext",
                         "value": "CkcSIVNlYXJjaEhvcml6b250YWxDb250ZW50Q2FyZFdpZGdldBofU2VhcmNoR3JpZEhvcml6b250YWwvR3JpZFdpZGdldCIBMRJ7YmsKCjEyNzEzMDUxODUSFERlYWRwb29sICYgV29sdmVyaW5lGhREZWFkcG9vbCAmIFdvbHZlcmluZSIFTU9WSUUqCVN1cGVyaGVybzDhp5reBEgBagN0ZWxqA2VuZ2oDaGluagN0YW1yA2VuZ2oKCAUSBm1hcnZlbHABGmQKIVNlYXJjaEhvcml6b250YWxDb250ZW50Q2FyZFdpZGdldBILbW9yZV9yZXN1bHQaIVNlYXJjaEhvcml6b250YWxDb250ZW50Q2FyZFdpZGdldCADKgZzZWFyY2gyA2VuZzgB"
                     }
                 },
