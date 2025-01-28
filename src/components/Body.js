@@ -1,12 +1,13 @@
 import MovieCard from "./MovieCard";
 import moviesList from "../utils/moviesList";
-import { useEffect, useState } from "react";
+import { useState } from "react";
+import Shimmer from "./Shimmer";
 
 
 
 const Body = () => {
 
-    const [filterAsYear, setFilterAsYear] = useState(moviesList);
+    const [listOfMovies, setListOfMovies] = useState(moviesList);
 
     // useEffect(() => {
     //     fetchData();
@@ -28,6 +29,10 @@ const Body = () => {
          
     // };
 
+    if (listOfMovies.length === 0 ) {
+        return <Shimmer/>;
+    }
+
     
     return (
         <div className="body">
@@ -35,9 +40,9 @@ const Body = () => {
                 <div className="search">search and button</div>
                 <div className="years">
                     <button className="year_filter" onClick={
-                        () => {const filteredList = filterAsYear.filter(
+                        () => {const filteredList = listOfMovies.filter(
                             (movie) => movie?.search_horizontal_content_card?.data?.sub_title > 2018);
-                setFilterAsYear(filteredList);
+                setListOfMovies(filteredList);
                 }}>Year filter
                     </button>
                 </div>
@@ -46,7 +51,7 @@ const Body = () => {
 
             </div>
             <div className="card-container">
-                 {filterAsYear.map((movies,index) => (<MovieCard key={index} movieData = {movies}/> )
+                 {listOfMovies.map((movies,index) => (<MovieCard key={index} movieData = {movies}/> )
                 ) }
 
             </div>
