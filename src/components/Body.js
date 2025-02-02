@@ -41,7 +41,7 @@ const Body = () => {
                         setSearchText(e.target.value);
                     }}></input>
 
-                    <button onClick={() => {
+                    <button className="search-btn" onClick={() => {
                         const filteredMovies = listOfMovies.filter((movie) => movie?.search_horizontal_content_card?.data?.title?.toLowerCase()?.includes(searchText.toLowerCase()));
 
                         setFilteredMovies(filteredMovies);

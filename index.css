@@ -80,7 +80,7 @@ button:hover {
 
 .shimmer-card {
     background-color: hwb(0 82% 13% / 0.62);
-    width: 440px;
+    width: 420px;
     height: 300px;
     margin: 20px;
     margin: 10px;
@@ -101,3 +101,32 @@ button:hover {
 .login-btn.logout {
     color: red;
 }
+.search-box {
+    padding: 10px;
+    margin: 0px 10px;
+    width: 400px;
+}
+
+.search-btn {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    
+  }
+
+  .search-btn:hover {
+    background-color: blanchedalmond;
+  }
+
+  .year_filter {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+
+  }
+
+  .year_filter:hover {
+    background-color: blanchedalmond;
+  }
+
+
